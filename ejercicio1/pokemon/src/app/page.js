@@ -93,11 +93,16 @@ export default function Home() {
 
   return (
     <div className="bg-light min-vh-100 pb-5">
-      {/* Encabezado Pokédex */}
+      {/* Encabezado Pokedex */}
       <nav className="navbar navbar-dark bg-danger shadow-sm mb-4">
         <div className="container d-flex justify-content-between align-items-center">
-          <span className="navbar-brand mb-0 h1 fw-bold">
-            <i className="bi bi-record-circle-fill me-2"></i>POKEDEX
+          <span className="navbar-brand mb-0 h1 fw-bold d-flex align-items-center gap-2">
+            <img 
+              src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/items/poke-ball.png" 
+              width="30" 
+              height="30" 
+            />
+            POKEDEX
           </span>
           <button
             onClick={cargarDesdePokeAPI}
