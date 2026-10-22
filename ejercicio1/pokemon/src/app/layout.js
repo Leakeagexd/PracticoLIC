@@ -3,8 +3,8 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 import './globals.css';
 
 export const metadata = {
-  title: 'Mi Pokédex React - Gen 1',
-  description: 'Pokédex de la primera generación',
+  title: 'Pokedex',
+  description: 'Pokedex de la primera generacion',
 };
 
 export default function RootLayout({ children }) {
